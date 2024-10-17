@@ -1,4 +1,8 @@
+import java.util.*
+
 fun main() {
     println("Hello World!")
-    println("Hello World! // INDEV")
+    val name: String = readln().toString()
+    println("Hello, $name!")
+
 }
